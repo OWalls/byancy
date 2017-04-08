@@ -178,3 +178,45 @@ footer div{
   width: 38px;
   height: auto;
 }
+
+/* tablets (portrait and landscape) ----------- */
+@media only screen and  (max-width : 730px) {
+/* Styles */
+section{
+  display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+}
+.flex-grid{
+
+  width: 100%;
+}
+/*.quote {
+  visibility: hidden;
+}*/
+
+
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and  (max-width : 480px) {
+/* Styles */
+section{
+  display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+}
+.flex-grid{
+
+  width: 100%;
+}
+/*.quote {
+  visibility: hidden;
+}*/
+
+
+}
