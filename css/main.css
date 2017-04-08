@@ -178,6 +178,7 @@ footer div{
   width: 38px;
   height: auto;
 }
+
 /* tablets (portrait and landscape) ----------- */
 @media only screen and  (max-width : 730px) {
 /* Styles */
