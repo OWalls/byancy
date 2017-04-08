@@ -1,0 +1,180 @@
+body{
+
+}
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff/*#f4d6ba*/;
+}
+nav ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+nav ul li {
+  margin-right: 10%;
+  text-align: center;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Shadows Into Light' /*'Luckiest Guy'*/;
+  color: #78c304;
+}
+.home{
+  text-align: right;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/temph2.jpg) no-repeat center center fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 500px;
+  /*background-size: 100%;
+  width: 100%;
+  margin: 0; */
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+header p{
+  font-size: 3.8em;
+  font-family: 'Shadows Into Light';
+  font-weight: bold;
+  text-shadow: 2px 2px #fff;
+  color: #fef65b;
+  display: inline;
+
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+
+}
+h1{
+  text-align: center;
+  background-color: #fef65b;
+  color:#fff;
+  width: 100%; /*33.1*%;*/
+  margin: 0;
+  font-size: 2.3em;
+  font-family: 'Shadows Into Light'
+
+}
+.contact, .projects{
+  height: 500px;
+  width: 100%;
+}
+
+.about1{
+
+
+
+}
+.flex-grid {
+  display: inline-flex;
+  vertical-align: top;
+  height: 400px;
+  width: 33%;
+  align-items: center;
+}
+.pic img{
+      width: 100%;
+      max-height: 100%;
+      margin: 0;
+      flex-grow: 2;
+    }
+.quote{
+    font-size: 3em;
+  font-family: 'Oswald';
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #f4d6ba;
+  color: #f2f2f2;
+    line-height: .75em;
+}
+.quote p{
+  text-align: center;
+  width: 100%;
+
+}
+.quote.b{
+  background-color: #fef65b;
+}
+.quote.c{
+  background-color: #78c304;
+}
+
+.text p{
+  margin-left: 5%;
+  line-height: 2.3em;
+
+}
+.contact{
+
+}
+.contact div{
+  background-color: #78c304;
+  height: 300px;
+  width: 65%;
+  margin: 10% auto;
+
+}
+.contact p {
+  text-align: center;
+  padding-top: 10%;
+  font-size: 1.3em;
+  font-family: 'Oswald';
+  color: #f4d6ba;
+}
+.social{
+  display: inline-flex;
+  list-style-type: none;
+  width: 100%;
+  justify-content: space-around;
+}
+.social li{
+  text-align: center;
+
+}
+footer{
+  display: flex;
+  background-color: #fef65b;
+  justify-content: space-around;
+}
+footer div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-item{
+  display: inline-flex;
+
+}
+.f1 p{
+  font-family: 'Oswald';
+  font-weight: 300;
+  color: #78c304;
+}
+.f2 p{
+  font-family: 'Shadows Into Light';
+  color: #78c304;
+  font-weight: bold;
+}
+.f3 ul{
+  display: inline-flex;
+  list-style-type: none;
+}
+.f3 img {
+  width: 38px;
+  height: auto;
+}
